@@ -6,8 +6,6 @@ published: true
 ---
 
 
-
-
 ## Overview
 
 **blabel** is a software package for labelling blank nodes in RDF graphs in a canonical manner. The package will label blank nodes in a manner that preserves isomorphism and should be efficient for most real-world graphs. Options are provided to label blank nodes as blank nodes, or alternatively as IRIs, in the latter case effectively Skolemising them. 
@@ -17,6 +15,10 @@ Uses of the package include (but are not limited to):
 1. [Skolemising blank nodes in an RDF graph](http://www.w3.org/TR/rdf11-concepts/#section-skolemization) such that the Skolems correspond for [isomorphic RDF graphs](http://www.w3.org/TR/rdf11-concepts/#graph-isomorphism).
 2. Computing a canonical hash/signature for an RDF graph that is unique modulo isomorphism.
 3. Detecting isomorphic RDF graphs from a large set of graphs without requiring pairwise comparison.
+
+## Code
+
+Check out the code and other materials [here](https://github.com/aidhog/blabel/).
 
 ## Paper
 
