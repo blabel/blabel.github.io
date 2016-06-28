@@ -70,7 +70,7 @@ url-pretty: "blabel.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
-markdown: redcarpet
+#markdown: redcarpet
 #highlighter: rouge
 highlighter: pygments
 permalink: /:year-:month-:day-:title
