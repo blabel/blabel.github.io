@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BLABEL
-subtitle: Skolemising Blank Nodes while Preserving Isomorphism
+subtitle: Leaning and Labelling RDF Graphs
 published: true
 ---
 
