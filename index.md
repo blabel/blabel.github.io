@@ -119,6 +119,8 @@ The package is available under an Apache Licence 2.0. The package also uses thre
 
 ## Reproducing results
 
-Please see [here](http://aidanhogan.com/skolem/) for a static version of the code used for the paper above, as well as a pointer to the graphs used and instructions on how experiments can be reproduced. Some of these graphs were taken from a [standard graph isomorphism benchmark](http://www.tcs.hut.fi/Software/bliss/benchmarks/index.shtml) and converted to RDF. We also used [BTC 14](http://km.aifb.kit.edu/projects/btc-2014/) for testing.
+Please see [here](http://aidanhogan.com/skolem/) for a static version of the code used for the paper above, as well as a pointer to the graphs used and instructions on how experiments can be reproduced. If you are looking for reproducibility details for the extended journal paper under review, please see [here](http://aidanhogan.com/blabel/index.html).
+
+Some of the graphs used in the above experiments were taken from a [standard graph isomorphism benchmark for "Bliss"](http://www.tcs.hut.fi/Software/bliss/benchmarks/index.shtml) and converted to RDF. We also used [BTC 14](http://km.aifb.kit.edu/projects/btc-2014/) for testing.
 
 ## Happy blabelling
