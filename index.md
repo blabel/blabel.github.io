@@ -105,7 +105,7 @@ If you are hoping to integrate this code with Jena, please see the `cl.uchile.dc
 
 If you would like to contribute something to the package, let me know! There's a couple of things I'd love to see done but don't have the bandwidth/expertise to jump into myself:
 
-* Maven-ising the package and dependencies
+* ~~Maven-ising the package and dependencies~~ (Thanks to Tobias Käfer for doing this!)
 * Better integration with Jena and/or Sesame
 * Maybe better documentation with JavaDoc
 
@@ -126,5 +126,15 @@ The package is available under an Apache Licence 2.0. The package also uses thre
 Please see [here](http://aidanhogan.com/skolem/) for a static version of the code used for the conference paper above, as well as a pointer to the graphs used and instructions on how experiments can be reproduced. Please see [here](http://aidanhogan.com/blabel/) likewise for reproducing results of the journal paper.
 
 Some of the graphs used in the above experiments were taken from a [standard graph isomorphism benchmark for "Bliss"](http://www.tcs.hut.fi/Software/bliss/benchmarks/index.shtml) and converted to RDF. We also used [BTC 14](http://km.aifb.kit.edu/projects/btc-2014/) for testing.
+
+## Thanks!
+
+Thanks to Marcelo Arenas and Carsten Lutz for comments on the proposed algorithms!
+
+Thanks to Antoine Zimmermann and thanks to Ivan Herman for errata on the paper published in ACM TWEB (corrected in the version linked above)!
+
+Thanks to Emir Muñoz for creating this nice page!
+
+Thanks to Tobias Käfer for Mavenising the repository!
 
 ## Happy blabelling
