@@ -27,9 +27,13 @@ Check out the code and other materials [here](https://github.com/aidhog/blabel/)
 
 More details about the algorithm used are available from the following paper:
 
+Aidan Hogan. "[Canonical Forms for Isomorphic and Equivalent RDF Graphs: Algorithms for Leaning and Labelling Blank Nodes](http://aidanhogan.com/docs/rdf-canonicalisation.pdf)". ACM Transactions on the Web 11(4): 22:1-22:62, 2017.
+
+The version linked above corrects some [minor errata](http://aidanhogan.com/#errataH17) present in the published version (thanks to Antoine Zimmermann and Ivan Herman!). The paper extends and supercedes the following earlier paper:
+
 Aidan Hogan. "[Skolemising Blank Nodes while Preserving Isomorphism](http://aidanhogan.com/docs/skolems_blank_nodes_www.pdf)". In the Proceedings of the 24th International World Wide Web Conference (WWW), Florence, Italy, May 18–22, 2015.
 
-The paper also provides details of performance experiments which show that it should be efficient in practice.
+These papers provide details of performance experiments which show that the methods described here should be efficient for all but a few nasty cases.
 
 ## Command-line Use
 
@@ -119,7 +123,7 @@ The package is available under an Apache Licence 2.0. The package also uses thre
 
 ## Reproducing results
 
-Please see [here](http://aidanhogan.com/skolem/) for a static version of the code used for the paper above, as well as a pointer to the graphs used and instructions on how experiments can be reproduced. If you are looking for reproducibility details for the extended journal paper under review, please see [here](http://aidanhogan.com/blabel/index.html).
+Please see [here](http://aidanhogan.com/skolem/) for a static version of the code used for the conference paper above, as well as a pointer to the graphs used and instructions on how experiments can be reproduced. Please see [here](http://aidanhogan.com/blabel/) likewise for reproducing results of the journal paper.
 
 Some of the graphs used in the above experiments were taken from a [standard graph isomorphism benchmark for "Bliss"](http://www.tcs.hut.fi/Software/bliss/benchmarks/index.shtml) and converted to RDF. We also used [BTC 14](http://km.aifb.kit.edu/projects/btc-2014/) for testing.
 
